@@ -13,19 +13,21 @@ This section demonstrates and verifies the following behaviours of Django Signal
 Each behaviour is demonstrated with code examples and test cases.
 
 2. Custom Classes in Python
-    - Rectangle Iterator Implementation
-      - Implementation of a custom Rectangle class that:
-         - Accepts '''python length''' and '''python width''' as integer parameters.
-         - Implements the iterator protocol.
-         - Returns:
-            - {'length':value}
-            - {'width':value}
+- Rectangle Iterator Implementation
+   - Implementation of a custom Rectangle class that:
+      - Accepts ```python length``` and ```python width``` as integer parameters.
+      - Implements the iterator protocol.
+      - Returns:
+        - ```python {'length':value}```
+        - ```python {'width':value}```
   
 ## Technologies Used:
+
 - Python 3.x
 - Django
 - SQLite
 ## Project Structure
+
 - Django project for signal demonstration.
 - Python script for Rectangle iterator implementation.
 - Documentation and test outputs.
