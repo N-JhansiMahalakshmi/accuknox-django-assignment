@@ -15,11 +15,11 @@ Each behaviour is demonstrated with code examples and test cases.
 2. Custom Classes in Python
 - Rectangle Iterator Implementation
    - Implementation of a custom Rectangle class that:
-      - Accepts ```python length``` and ```python width``` as integer parameters.
+      - Accepts ```length``` and ```width``` as integer parameters.
       - Implements the iterator protocol.
       - Returns:
-        - ```python {'length':value}```
-        - ```python {'width':value}```
+        - ```{'length':value}```
+        - ```{'width':value}```
   
 ## Technologies Used:
 
