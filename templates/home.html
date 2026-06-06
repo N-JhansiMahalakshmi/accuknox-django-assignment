@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AccuKnox Django Assignment</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            margin:0;
+            padding:40px;
+        }
+
+        .container{
+            max-width:900px;
+            margin:auto;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            width:250px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,.1);
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:10px;
+            padding:10px 15px;
+            background:#007bff;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>AccuKnox Django Assignment</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Question 1</h3>
+            <p>Signals: Synchronous vs Asynchronous</p>
+            <a href="/q1/" class="btn">Run Test</a>
+        </div>
+
+        <div class="card">
+            <h3>Question 2</h3>
+            <p>Signals and Threads</p>
+            <a href="/q2/" class="btn">Run Test</a>
+        </div>
+
+        <div class="card">
+            <h3>Question 3</h3>
+            <p>Signals and Transactions</p>
+            <a href="/q3/" class="btn">Run Test</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
