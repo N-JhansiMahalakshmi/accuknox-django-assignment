@@ -4,8 +4,7 @@ This repository contains solutions for the AccuKnox Django/Python Trainee Assign
 ## Tasks Completed
 
 1. Django Signals
-This section demonstrates and verifies the following behaviours of Django Signals:
-
+- This section demonstrates and verifies the following behaviours of Django Signals:
    - Synchronous vs Asynchronous: Signals are synchronous by default.
    - Same Thread Execution: Signals execute in the same thread as the caller.
    - Same Database Transaction: Signals execute within the same database transaction as the caller.
