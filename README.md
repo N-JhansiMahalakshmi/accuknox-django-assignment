@@ -1,4 +1,4 @@
-# accuknox-django-assignment
+# Accuknox-django-assignment
 This repository contains solutions for the AccuKnox Django/Python Trainee Assignment.
 
 ## Tasks Completed
@@ -23,9 +23,10 @@ Each behaviour is demonstrated with code examples and test cases.
   
 ## Technologies Used:
 
-- Python 3.x
+- Python 3.14.3
 - Django
 - SQLite
+  
 ## Project Structure
 
 - Django project for signal demonstration.
@@ -34,20 +35,31 @@ Each behaviour is demonstrated with code examples and test cases.
 
 # Screenshots
 
-## Home Page
+## Django Signals
+
+### Home Page
+
 <img width="1600" height="560" alt="image" src="https://github.com/user-attachments/assets/f6770117-db85-4249-a324-be30c705861f" />
 
-## Question 1 - Synchronous Signals
+### Question 1 - Synchronous Signals
+
 <img width="958" height="400" alt="image" src="https://github.com/user-attachments/assets/2acf17c9-5083-4fa9-aff6-7f1e2afb00d2" />
 
-## Question 2 - Same Thread Execution
+### Question 2 - Same Thread Execution
+
 <img width="962" height="375" alt="image" src="https://github.com/user-attachments/assets/3a211ce7-2cdd-49c1-b968-bf56dfc2c038" />
 
-## Question 3 - Same Transaction Execution
+### Question 3 - Same Transaction Execution
+
 <img width="957" height="415" alt="image" src="https://github.com/user-attachments/assets/f7f1b6c8-2a0a-458d-abc5-36adb81cc476" />
 
-## Terminal Output
+### Terminal Output
+
 <img width="1615" height="793" alt="image" src="https://github.com/user-attachments/assets/2ba71884-1862-47ee-aac4-e04add63d822" />
+
+##  Custom Classes in Python
+
+<img width="1621" height="671" alt="image" src="https://github.com/user-attachments/assets/7215b69e-7817-4cec-ad0d-2db70827e114" />
 
 ### Author
 N Jhansi mahalakshmi
