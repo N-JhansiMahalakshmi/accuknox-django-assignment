@@ -6,15 +6,21 @@ This repository contains solutions for the AccuKnox Django/Python Trainee Assign
 1. Django Signals
 This section demonstrates and verifies the following behaviours of Django Signals:
 
-   - Synchronous vs Asynchronous
-   - Same Thread Execution
-   - Same Database Transaction
+   - Synchronous vs Asynchronous: Signals are synchronous by default.
+   - Same Thread Execution: Signals execute in the same thread as the caller.
+   - Same Database Transaction: Signals execute within the same database transaction as the caller.
 
 Each behaviour is demonstrated with code examples and test cases.
 
 2. Custom Classes in Python
-Implementation of a custom Rectangle class that:
-   - Rectangle Iterator Implementation
+    - Rectangle Iterator Implementation
+      - Implementation of a custom Rectangle class that:
+         - Accepts '''python length''' and '''python width''' as integer parameters.
+         - Implements the iterator protocol.
+         - Returns:
+            - {'length':value}
+            - {'width':value}
+  
 ## Technologies Used:
 - Python 3.x
 - Django
